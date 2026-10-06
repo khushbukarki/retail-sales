@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+# raw data and the database are large; regenerate with src.load_data
+data/*.xlsx
+data/*.csv
+data/*.db
